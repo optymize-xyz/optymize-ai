@@ -30,7 +30,7 @@ def get_llm():
     )
 
 
-    df = pd.read_excel("/home/fish/Documents/optymize.xlsx")
+    df = pd.read_excel("optymize.xlsx")
     data_list = df.values.ravel().tolist()
     document_list = []
 
